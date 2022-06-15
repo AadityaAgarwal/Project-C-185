@@ -1,3 +1,5 @@
+// npm install react-native-screens react-native-safe-area-context react-native-gesture-handler react-native-reanimated @react-native-community/masked-view
+
 import "react-native-gesture-handler"
 import React from 'react';
 import Main from "./screens/Main";
