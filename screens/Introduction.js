@@ -30,7 +30,7 @@ export default class Introduction extends React.Component{
                     </View>
                     <View style={{flex:0.25,flexDirection:'row'}}>
                     <View style={{flex:0.5}}>
-                        <Image source={require('../assets/crown-pic1.png')} style={{width:150,height:60}}></Image>
+                        <Image source={require('../assets/crown-pic1.png')} style={{width:125,height:50}}></Image>
                     </View>
                     <View style={{flex:0.5}}>
                         <Image source={require('../assets/flower-pic1.png')} style={{width:150,height:60}}></Image>
@@ -52,7 +52,7 @@ export default class Introduction extends React.Component{
                         onPress={()=>{
                             this.props.navigation.navigate('Main')
                         }}>
-                            <Text>Try now!!</Text>
+                            <Text style={{marginTop:10,}}>Try now!!</Text>
                         </TouchableOpacity>
                     </View>
                 </View>
