@@ -77,10 +77,13 @@ export default StyleSheet.create({
         borderRadius:RFValue(15),
     },
     textTouchableOpacity:{
+    alignContent:'center',
       backgroundColor:'orange',
       borderRadius:30,
       borderColor:'white',
-      height:RFValue(10),
+      height:RFValue(40),
       width:RFPercentage(30),
+      alignItems:'center',
+      borderWidth:RFValue(3)
     },
 })
